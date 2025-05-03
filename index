@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Simple Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      font-size: large;
+    }
+
+    header {
+      background: #333;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav {
+      background: #444;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      background: #eee;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      margin-bottom: 10px;
+    }
+
+    .section {
+      padding: 40px 20px;
+    }
+
+    .contact-form {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      padding: 10px 20px;
+      background: #333;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #555;
+    }
+
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    div {
+      font-size: x-large;
+    }
+
+    .batt
+    {
+      justify-content: center;
+    }
+    .img-fluid
+    {
+      width: 300px;
+      height: 300px;
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>About Milo Hoffman</h1>
+  </header>
+
+  <nav>
+    <a href="#hero">Profile</a>
+    <a href="#about">Contact</a>
+    <a href="final_project.html">Final Project</a>
+  </nav>
+
+  <div style="display: flex; align-items: right;">
+    <img class="img-fluid"  src="milohoffman.jpg" alt="Milo Hoffman profile image"/>
+    <p>Hello there! My name is Milo Hoffman and I am doing a project on Lithium Battery incidents on airplanes. Lithium batteries power countless devices we use every day—from smartphones to laptops and e-scooters. However, their energy-dense design also makes them a potential fire hazard, especially in the confined and pressurized environment of an aircraft. For that reason, there has been a rise in lithium battery incidents on planes.</p>
+  </div>
+  
+
+  <div style="display: flex; align-items: center;" class="batt">
+    <img src="lith_battery.jpg" width="300" alt="lithium battery"> 
+  </div>
+
+  <div class="section" id="about">
+    <h2>About Me</h2>
+    <p>I am a student at Syracuse University studying Broadcast and Digital Journalism. I am from New York City and have lived there my entire life. I am a huge sports fan, specifically the Yankees, Knicks and Jets. I also love to travel!</p>
+  </div>
+
+  <div class="section" id="contact">
+    <h2>Contact Me</h2>
+    <form class="contact-form" action="#" method="post">
+      <input type="text" name="name" placeholder="Your name" required>
+      <input type="email" name="email" placeholder="Your email" required>
+      <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 My Simple Website</p>
+  </footer>
+
+</body>
+</html>
